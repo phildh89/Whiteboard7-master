@@ -21,11 +21,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterPosition", "Charac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterPositionTest", "CharacterPositionTest\CharacterPositionTest.csproj", "{B63EE835-2F7D-410E-A1D4-CCD4D4EFCBDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeLib", "PalindromeLib\PalindromeLib.csproj", "{043A6D63-BB44-4C4A-AB59-241C68383527}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeLib", "PalindromeLib\PalindromeLib.csproj", "{043A6D63-BB44-4C4A-AB59-241C68383527}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeTest", "PalindromeTest\PalindromeTest.csproj", "{1F0FE4CF-966A-4068-9B39-C9D8A275E1FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeTest", "PalindromeTest\PalindromeTest.csproj", "{1F0FE4CF-966A-4068-9B39-C9D8A275E1FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PyramidBrickCountTest", "PyramidBrickCountTest\PyramidBrickCountTest.csproj", "{BB480B21-D036-4F7E-91C1-5D3DBB3360E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PyramidBrickCountTest", "PyramidBrickCountTest\PyramidBrickCountTest.csproj", "{BB480B21-D036-4F7E-91C1-5D3DBB3360E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsPrime", "IsPrime\IsPrime.csproj", "{1D365244-1187-4948-9CBA-D069A1CC6197}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfPrime", "SumOfPrime\SumOfPrime.csproj", "{C09EBABB-A3F2-40A6-AD75-0355142334FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetJulianDate", "GetJulianDate\GetJulianDate.csproj", "{DD318006-304F-41B8-B1C5-5D43A586A113}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetJulianTest", "GetJulianTest\GetJulianTest.csproj", "{9F176A5B-EB25-4BAD-AF3A-C978762DFAEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphabetizeString", "AlphabetizeString\AlphabetizeString.csproj", "{281D0A89-9BF9-4B3F-B28E-D96575393C4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +91,26 @@ Global
 		{BB480B21-D036-4F7E-91C1-5D3DBB3360E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB480B21-D036-4F7E-91C1-5D3DBB3360E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB480B21-D036-4F7E-91C1-5D3DBB3360E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D365244-1187-4948-9CBA-D069A1CC6197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D365244-1187-4948-9CBA-D069A1CC6197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D365244-1187-4948-9CBA-D069A1CC6197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D365244-1187-4948-9CBA-D069A1CC6197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C09EBABB-A3F2-40A6-AD75-0355142334FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09EBABB-A3F2-40A6-AD75-0355142334FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09EBABB-A3F2-40A6-AD75-0355142334FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09EBABB-A3F2-40A6-AD75-0355142334FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD318006-304F-41B8-B1C5-5D43A586A113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD318006-304F-41B8-B1C5-5D43A586A113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD318006-304F-41B8-B1C5-5D43A586A113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD318006-304F-41B8-B1C5-5D43A586A113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F176A5B-EB25-4BAD-AF3A-C978762DFAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F176A5B-EB25-4BAD-AF3A-C978762DFAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F176A5B-EB25-4BAD-AF3A-C978762DFAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F176A5B-EB25-4BAD-AF3A-C978762DFAEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{281D0A89-9BF9-4B3F-B28E-D96575393C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281D0A89-9BF9-4B3F-B28E-D96575393C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281D0A89-9BF9-4B3F-B28E-D96575393C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281D0A89-9BF9-4B3F-B28E-D96575393C4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

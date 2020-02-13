@@ -8,6 +8,8 @@ namespace Whiteboard7
         static void Main(string[] args)
         {
             Console.WriteLine("\n\tWhiteboard7.Program.Main()");
+
+
         }
     }
 }
