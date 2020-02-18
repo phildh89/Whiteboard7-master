@@ -35,7 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetJulianDate", "GetJulianD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetJulianTest", "GetJulianTest\GetJulianTest.csproj", "{9F176A5B-EB25-4BAD-AF3A-C978762DFAEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphabetizeString", "AlphabetizeString\AlphabetizeString.csproj", "{281D0A89-9BF9-4B3F-B28E-D96575393C4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphabetizeString", "AlphabetizeString\AlphabetizeString.csproj", "{281D0A89-9BF9-4B3F-B28E-D96575393C4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistinctCountArray", "DistinctCountArray\DistinctCountArray.csproj", "{F005F719-7AE2-42F8-8743-78DA9FB7E6EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseInt", "ReverseInt\ReverseInt.csproj", "{33F2ED3D-BD5C-4675-B62C-2F4EC2C5A2F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +115,14 @@ Global
 		{281D0A89-9BF9-4B3F-B28E-D96575393C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{281D0A89-9BF9-4B3F-B28E-D96575393C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{281D0A89-9BF9-4B3F-B28E-D96575393C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F005F719-7AE2-42F8-8743-78DA9FB7E6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F005F719-7AE2-42F8-8743-78DA9FB7E6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F005F719-7AE2-42F8-8743-78DA9FB7E6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F005F719-7AE2-42F8-8743-78DA9FB7E6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33F2ED3D-BD5C-4675-B62C-2F4EC2C5A2F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33F2ED3D-BD5C-4675-B62C-2F4EC2C5A2F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33F2ED3D-BD5C-4675-B62C-2F4EC2C5A2F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33F2ED3D-BD5C-4675-B62C-2F4EC2C5A2F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
