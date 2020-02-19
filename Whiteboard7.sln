@@ -37,9 +37,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetJulianTest", "GetJulianT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphabetizeString", "AlphabetizeString\AlphabetizeString.csproj", "{281D0A89-9BF9-4B3F-B28E-D96575393C4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistinctCountArray", "DistinctCountArray\DistinctCountArray.csproj", "{F005F719-7AE2-42F8-8743-78DA9FB7E6EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistinctCountArray", "DistinctCountArray\DistinctCountArray.csproj", "{F005F719-7AE2-42F8-8743-78DA9FB7E6EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseInt", "ReverseInt\ReverseInt.csproj", "{33F2ED3D-BD5C-4675-B62C-2F4EC2C5A2F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseInt", "ReverseInt\ReverseInt.csproj", "{33F2ED3D-BD5C-4675-B62C-2F4EC2C5A2F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingArray", "SortingArray\SortingArray.csproj", "{D3D862A3-9515-4896-B14C-BD2F58E35A17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{33F2ED3D-BD5C-4675-B62C-2F4EC2C5A2F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33F2ED3D-BD5C-4675-B62C-2F4EC2C5A2F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33F2ED3D-BD5C-4675-B62C-2F4EC2C5A2F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3D862A3-9515-4896-B14C-BD2F58E35A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D862A3-9515-4896-B14C-BD2F58E35A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D862A3-9515-4896-B14C-BD2F58E35A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D862A3-9515-4896-B14C-BD2F58E35A17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
