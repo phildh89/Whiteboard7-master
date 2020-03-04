@@ -2,28 +2,31 @@
 
 namespace SumOfPrime
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("SumOfPrime.Program.Main()");
 
-            Console.WriteLine(SumOfPrime(1));
+            Console.WriteLine(SumOfPrime(4));
         }
         public static int SumOfPrime(int num)
         {
             int primeCount = 0;
             int primeSum = 0;
             if (num < 0) return 0;
-            for (int i = 2; primeCount <= num; i++)
+            int i = 2;
+
+
+            while (primeCount < num)
             {
-                if (num % i == 0)
+                if (IsPrime.Program.IsPrime(i))
                 {
-                    continue;
+                    primeSum += i;
+                    primeCount++;
                 }
-                
-                primeSum+= i;
-                primeCount++;
+
+                i++;
             }
 
             return primeSum;
