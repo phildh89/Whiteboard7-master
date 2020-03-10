@@ -43,9 +43,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseInt", "ReverseInt\Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingArray", "SortingArray\SortingArray.csproj", "{D3D862A3-9515-4896-B14C-BD2F58E35A17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfPrimeTest", "SumOfPrimeTest\SumOfPrimeTest.csproj", "{1C97B364-884B-417C-9F9E-6DB5FE379C5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfPrimeTest", "SumOfPrimeTest\SumOfPrimeTest.csproj", "{1C97B364-884B-417C-9F9E-6DB5FE379C5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClockAngle", "ClockAngle\ClockAngle.csproj", "{820E7AB1-1F59-4427-BBBB-13A66E00930E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClockAngle", "ClockAngle\ClockAngle.csproj", "{820E7AB1-1F59-4427-BBBB-13A66E00930E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountCapitalLetters", "CountCapitalLetters\CountCapitalLetters.csproj", "{E6CAB390-35F5-4783-B56A-E0D211127AD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{820E7AB1-1F59-4427-BBBB-13A66E00930E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{820E7AB1-1F59-4427-BBBB-13A66E00930E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{820E7AB1-1F59-4427-BBBB-13A66E00930E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6CAB390-35F5-4783-B56A-E0D211127AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6CAB390-35F5-4783-B56A-E0D211127AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6CAB390-35F5-4783-B56A-E0D211127AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6CAB390-35F5-4783-B56A-E0D211127AD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
