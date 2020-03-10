@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace CountCapitalLetters
 {
@@ -17,8 +16,7 @@ namespace CountCapitalLetters
 
             for (int i = 0; i < input.Length; i++)
             {
-                string temp = input.ToLower();
-                if (input[i] != temp[i])
+                if (input[i] != input.ToLower()[i])
                 {
                     count++;
                 }
