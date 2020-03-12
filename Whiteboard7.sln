@@ -47,13 +47,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfPrimeTest", "SumOfPrim
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClockAngle", "ClockAngle\ClockAngle.csproj", "{820E7AB1-1F59-4427-BBBB-13A66E00930E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountCapitalLetters", "CountCapitalLetters\CountCapitalLetters.csproj", "{E6CAB390-35F5-4783-B56A-E0D211127AD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountCapitalLetters", "CountCapitalLetters\CountCapitalLetters.csproj", "{E6CAB390-35F5-4783-B56A-E0D211127AD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountCapitalLettersTest", "CountCapitalLettersTest\CountCapitalLettersTest.csproj", "{D7364190-41C1-433A-BC0D-8B0B9069CAC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountCapitalLettersTest", "CountCapitalLettersTest\CountCapitalLettersTest.csproj", "{D7364190-41C1-433A-BC0D-8B0B9069CAC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountChar", "CountChar\CountChar.csproj", "{7C6EBA45-3E81-423F-B1BE-CD195451CD95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountChar", "CountChar\CountChar.csproj", "{7C6EBA45-3E81-423F-B1BE-CD195451CD95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountCharTest", "CountCharTest\CountCharTest.csproj", "{B4C30D34-2C56-4358-8F31-4B5522355964}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountCharTest", "CountCharTest\CountCharTest.csproj", "{B4C30D34-2C56-4358-8F31-4B5522355964}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumArray", "SumArray\SumArray.csproj", "{F5EA365C-7F94-4486-B963-D98B9E161A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumArrayTest", "SumArrayTest\SumArrayTest.csproj", "{8C8C2E5B-9335-478C-82BF-B7CA76BA26B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +169,14 @@ Global
 		{B4C30D34-2C56-4358-8F31-4B5522355964}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4C30D34-2C56-4358-8F31-4B5522355964}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4C30D34-2C56-4358-8F31-4B5522355964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5EA365C-7F94-4486-B963-D98B9E161A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5EA365C-7F94-4486-B963-D98B9E161A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5EA365C-7F94-4486-B963-D98B9E161A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5EA365C-7F94-4486-B963-D98B9E161A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8C2E5B-9335-478C-82BF-B7CA76BA26B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8C2E5B-9335-478C-82BF-B7CA76BA26B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8C2E5B-9335-478C-82BF-B7CA76BA26B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8C2E5B-9335-478C-82BF-B7CA76BA26B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

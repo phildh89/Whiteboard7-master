@@ -8,7 +8,7 @@ namespace DistinctCountArray
         {
             Console.WriteLine("DistinctCountArray.Program.Main()");
 
-            int[] example = { 2, 3, 5, 6, 2 };
+            int[] example = { 2, 7,15,15,1,10,15,2,7 };
 
 
             Console.WriteLine(DistinctCount(example));
@@ -20,14 +20,18 @@ namespace DistinctCountArray
             for (int i = 0; i < inputArray.Length; i++)
             {
                 bool isNew = true;
-                for (int k = 0; k < i; k++)
-                {
-                    if (inputArray[k] == inputArray[i])
+           
+                    for (int k = i-1; k > 0; k--)
                     {
-                        isNew = false;
-                    }
 
-                }
+                        if (inputArray[k] == inputArray[i])
+                        {
+                            isNew = false;
+                            break;
+                        }
+
+                    }
+                
                 if(isNew == true)count++;
 
             }
