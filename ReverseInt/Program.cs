@@ -6,10 +6,8 @@ namespace ReverseInt
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("ReverseInt.Program.Main()");
-            //Reverse(10, 15);
-
-            Console.WriteLine(ReverseInt(-132165));
+            Console.WriteLine("ReverseInt.Program.Main()");
+            Reverse(10, 15);
         }
         public static void Reverse(int x, int y)
         {
@@ -20,27 +18,6 @@ namespace ReverseInt
 
 
             Console.WriteLine($"x={x}, y={y}");
-        }
-        public static int ReverseInt(int input)
-        {
-            int result = 0;
-            int lastNum = 0;
-            bool isNegative = input < 0 ? true : false;
-            if (input < 0)
-            {
-                input *= -1;
-            }
-            while (input > 0)
-            {
-                lastNum = input % 10;
-                result = result * 10 + lastNum;
-                input = input / 10;
-            }
-            if (isNegative == true)
-            {
-                result *= -1;
-            }
-            return result;
         }
     }
 }
