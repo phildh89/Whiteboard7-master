@@ -26,7 +26,7 @@ namespace ReverseInt
             int result = 0;
             int lastNum = 0;
             bool isNegative = input < 0 ? true : false;
-            if (input < 0)
+            if (input < 0)  //% wont work with negitive numbers
             {
                 input *= -1;
             }
