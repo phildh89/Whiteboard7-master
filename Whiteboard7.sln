@@ -55,9 +55,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountChar", "CountChar\Coun
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountCharTest", "CountCharTest\CountCharTest.csproj", "{B4C30D34-2C56-4358-8F31-4B5522355964}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumArray", "SumArray\SumArray.csproj", "{F5EA365C-7F94-4486-B963-D98B9E161A10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumArray", "SumArray\SumArray.csproj", "{F5EA365C-7F94-4486-B963-D98B9E161A10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumArrayTest", "SumArrayTest\SumArrayTest.csproj", "{8C8C2E5B-9335-478C-82BF-B7CA76BA26B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumArrayTest", "SumArrayTest\SumArrayTest.csproj", "{8C8C2E5B-9335-478C-82BF-B7CA76BA26B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scrable", "Scrable\Scrable.csproj", "{134A3CEB-FD4B-4D71-99F7-302BCD8CD462}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{8C8C2E5B-9335-478C-82BF-B7CA76BA26B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C8C2E5B-9335-478C-82BF-B7CA76BA26B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C8C2E5B-9335-478C-82BF-B7CA76BA26B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{134A3CEB-FD4B-4D71-99F7-302BCD8CD462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134A3CEB-FD4B-4D71-99F7-302BCD8CD462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134A3CEB-FD4B-4D71-99F7-302BCD8CD462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134A3CEB-FD4B-4D71-99F7-302BCD8CD462}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
